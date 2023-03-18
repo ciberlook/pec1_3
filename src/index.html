@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1024, initial-scale=1.0">
+    <title>Ejercicio 3. PEC1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="currency">
+        <label>Choose currency:</label>
+        <select id="currency-one">
+            <OPTION value="USD" selected>USD</OPTION>
+            <OPTION value="AED">AED</OPTION>
+            <OPTION value="AFN">AFN</OPTION>
+            <OPTION value="ALL">ALL</OPTION>
+            <OPTION value="AMD">AMD</OPTION>
+            <OPTION value="ANG">ANG</OPTION>
+            <OPTION value="AOA">AOA</OPTION>
+            <OPTION value="ARS">ARS</OPTION>
+            <OPTION value="AUD">AUD</OPTION>
+            <OPTION value="AWG">AWG</OPTION>
+            <OPTION value="AZN">AZN</OPTION>
+            <OPTION value="BAM">BAM</OPTION>
+            <OPTION value="BBD">BBD</OPTION>
+            <OPTION value="BDT">BDT</OPTION>
+            <OPTION value="BGN">BGN</OPTION>
+            <OPTION value="BHD">BHD</OPTION>
+            <OPTION value="BIF">BIF</OPTION>
+            <OPTION value="BMD">BMD</OPTION>
+            <OPTION value="BND">BND</OPTION>
+            <OPTION value="BOB">BOB</OPTION>
+            <OPTION value="BRL">BRL</OPTION>
+            <OPTION value="BSD">BSD</OPTION>
+            <OPTION value="BTN">BTN</OPTION>
+            <OPTION value="BWP">BWP</OPTION>
+            <OPTION value="BYN">BYN</OPTION>
+            <OPTION value="BZD">BZD</OPTION>
+            <OPTION value="CAD">CAD</OPTION>
+            <OPTION value="CDF">CDF</OPTION>
+            <OPTION value="CHF">CHF</OPTION>
+            <OPTION value="CLP">CLP</OPTION>
+            <OPTION value="CNY">CNY</OPTION>
+            <OPTION value="COP">COP</OPTION>
+            <OPTION value="CRC">CRC</OPTION>
+            <OPTION value="CUP">CUP</OPTION>
+            <OPTION value="CVE">CVE</OPTION>
+            <OPTION value="CZK">CZK</OPTION>
+            <OPTION value="DJF">DJF</OPTION>
+            <OPTION value="DKK">DKK</OPTION>
+            <OPTION value="DOP">DOP</OPTION>
+            <OPTION value="DZD">DZD</OPTION>
+            <OPTION value="EGP">EGP</OPTION>
+            <OPTION value="ERN">ERN</OPTION>
+            <OPTION value="ETB">ETB</OPTION>
+            <OPTION value="EUR">EUR</OPTION>
+            <OPTION value="FJD">FJD</OPTION>
+            <OPTION value="FKP">FKP</OPTION>
+            <OPTION value="FOK">FOK</OPTION>
+            <OPTION value="GBP">GBP</OPTION>
+            <OPTION value="GEL">GEL</OPTION>
+            <OPTION value="GGP">GGP</OPTION>
+            <OPTION value="GHS">GHS</OPTION>
+            <OPTION value="GIP">GIP</OPTION>
+            <OPTION value="GMD">GMD</OPTION>
+            <OPTION value="GNF">GNF</OPTION>
+            <OPTION value="GTQ">GTQ</OPTION>
+            <OPTION value="GYD">GYD</OPTION>
+            <OPTION value="HKD">HKD</OPTION>
+            <OPTION value="HNL">HNL</OPTION>
+            <OPTION value="HRK">HRK</OPTION>
+            <OPTION value="HTG">HTG</OPTION>
+            <OPTION value="HUF">HUF</OPTION>
+            <OPTION value="IDR">IDR</OPTION>
+            <OPTION value="ILS">ILS</OPTION>
+            <OPTION value="IMP">IMP</OPTION>
+            <OPTION value="INR">INR</OPTION>
+            <OPTION value="IQD">IQD</OPTION>
+            <OPTION value="IRR">IRR</OPTION>
+            <OPTION value="ISK">ISK</OPTION>
+            <OPTION value="JEP">JEP</OPTION>
+            <OPTION value="JMD">JMD</OPTION>
+            <OPTION value="JOD">JOD</OPTION>
+            <OPTION value="JPY">JPY</OPTION>
+            <OPTION value="KES">KES</OPTION>
+            <OPTION value="KGS">KGS</OPTION>
+            <OPTION value="KHR">KHR</OPTION>
+            <OPTION value="KID">KID</OPTION>
+            <OPTION value="KMF">KMF</OPTION>
+            <OPTION value="KRW">KRW</OPTION>
+            <OPTION value="KWD">KWD</OPTION>
+            <OPTION value="KYD">KYD</OPTION>
+            <OPTION value="KZT">KZT</OPTION>
+            <OPTION value="LAK">LAK</OPTION>
+            <OPTION value="LBP">LBP</OPTION>
+            <OPTION value="LKR">LKR</OPTION>
+            <OPTION value="LRD">LRD</OPTION>
+            <OPTION value="LSL">LSL</OPTION>
+            <OPTION value="LYD">LYD</OPTION>
+            <OPTION value="MAD">MAD</OPTION>
+            <OPTION value="MDL">MDL</OPTION>
+            <OPTION value="MGA">MGA</OPTION>
+            <OPTION value="MKD">MKD</OPTION>
+            <OPTION value="MMK">MMK</OPTION>
+            <OPTION value="MNT">MNT</OPTION>
+            <OPTION value="MOP">MOP</OPTION>
+            <OPTION value="MRU">MRU</OPTION>
+            <OPTION value="MUR">MUR</OPTION>
+            <OPTION value="MVR">MVR</OPTION>
+            <OPTION value="MWK">MWK</OPTION>
+            <OPTION value="MXN">MXN</OPTION>
+            <OPTION value="MYR">MYR</OPTION>
+            <OPTION value="MZN">MZN</OPTION>
+            <OPTION value="NAD">NAD</OPTION>
+            <OPTION value="NGN">NGN</OPTION>
+            <OPTION value="NIO">NIO</OPTION>
+            <OPTION value="NOK">NOK</OPTION>
+            <OPTION value="NPR">NPR</OPTION>
+            <OPTION value="NZD">NZD</OPTION>
+            <OPTION value="OMR">OMR</OPTION>
+            <OPTION value="PAB">PAB</OPTION>
+            <OPTION value="PEN">PEN</OPTION>
+            <OPTION value="PGK">PGK</OPTION>
+            <OPTION value="PHP">PHP</OPTION>
+            <OPTION value="PKR">PKR</OPTION>
+            <OPTION value="PLN">PLN</OPTION>
+            <OPTION value="PYG">PYG</OPTION>
+            <OPTION value="QAR">QAR</OPTION>
+            <OPTION value="RON">RON</OPTION>
+            <OPTION value="RSD">RSD</OPTION>
+            <OPTION value="RUB">RUB</OPTION>
+            <OPTION value="RWF">RWF</OPTION>
+            <OPTION value="SAR">SAR</OPTION>
+            <OPTION value="SBD">SBD</OPTION>
+            <OPTION value="SCR">SCR</OPTION>
+            <OPTION value="SDG">SDG</OPTION>
+            <OPTION value="SEK">SEK</OPTION>
+            <OPTION value="SGD">SGD</OPTION>
+            <OPTION value="SHP">SHP</OPTION>
+            <OPTION value="SLE">SLE</OPTION>
+            <OPTION value="SLL">SLL</OPTION>
+            <OPTION value="SOS">SOS</OPTION>
+            <OPTION value="SRD">SRD</OPTION>
+            <OPTION value="SSP">SSP</OPTION>
+            <OPTION value="STN">STN</OPTION>
+            <OPTION value="SYP">SYP</OPTION>
+            <OPTION value="SZL">SZL</OPTION>
+            <OPTION value="THB">THB</OPTION>
+            <OPTION value="TJS">TJS</OPTION>
+            <OPTION value="TMT">TMT</OPTION>
+            <OPTION value="TND">TND</OPTION>
+            <OPTION value="TOP">TOP</OPTION>
+            <OPTION value="TRY">TRY</OPTION>
+            <OPTION value="TTD">TTD</OPTION>
+            <OPTION value="TVD">TVD</OPTION>
+            <OPTION value="TWD">TWD</OPTION>
+            <OPTION value="TZS">TZS</OPTION>
+            <OPTION value="UAH">UAH</OPTION>
+            <OPTION value="UGX">UGX</OPTION>
+            <OPTION value="UYU">UYU</OPTION>
+            <OPTION value="UZS">UZS</OPTION>
+            <OPTION value="VES">VES</OPTION>
+            <OPTION value="VND">VND</OPTION>
+            <OPTION value="VUV">VUV</OPTION>
+            <OPTION value="WST">WST</OPTION>
+            <OPTION value="XAF">XAF</OPTION>
+            <OPTION value="XCD">XCD</OPTION>
+            <OPTION value="XDR">XDR</OPTION>
+            <OPTION value="XOF">XOF</OPTION>
+            <OPTION value="XPF">XPF</OPTION>
+            <OPTION value="YER">YER</OPTION>
+            <OPTION value="ZAR">ZAR</OPTION>
+            <OPTION value="ZMW">ZMW</OPTION>
+            <OPTION value="ZWL">ZWL</OPTION>
+        </select>
+    </div>
+    <div class="movie-container">
+        <label>Pick a movie:</label>
+        <select id="movie">
+            <option value="10">Avengers (10 USD)</option>
+            <option value="12">Joker (12 USD)</option>
+            <option value="8">Toy Story 4 (8 USD)</option>
+            <option value="9">The Lion King (9 USD)</option>
+        </select>
+    </div>
+
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>N/A</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>Occupied</small>
+        </li>
+    </ul>
+
+    <div class="container">
+        <div class="screen"></div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+        </div>
+    </div>
+    <p class="text">You have selected <span id="count">0</span> seats for a price of <span id="total">0</span> </p>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
